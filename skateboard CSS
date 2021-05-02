@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>skateboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="board">
+        </div>
+        <div class="boardco"></div>
+        
+          <div class="wheel1"></div>
+          <div class="wheelco1"></div>
+             <div class="wheel2"></div>
+             <div class="wheelcol2"></div>
+               <div class="wheel3"></div>
+               <div class="wheelco3"></div>
+                 <div class="wheel4"></div>
+                 <div class="wheelco4"></div>
+         <div class="rect1"></div>     
+          <div class="rect2"></div>   
+        <div class="rect3"></div>
+       <div class="rect4"></div>
+       
+       <div class="circ1"></div>
+       <div class="circ2"></div>
+        <a href="https://www.sololearn.com/Profile/17841129/?ref=app">
+ <button class="follow">Follow</button>
+     
+ </a>
+ 
+ 
+ <style>
+     body {
+      margin:0;
+      padding:0;
+      background-color:#a3c2c2;
+      background-size:cover;
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center ;
+  
+}
+.board{
+    background-color:#ff9999;
+    height:38rem;
+    width:14rem;
+    border-radius:120px;
+    border:7px solid black;
+    position:absolute ;
+    }
+.boardco{
+    background-color:#ff6666;
+    height:37rem;
+    width:13.7rem;
+    position:absolute;
+    border-radius:119px 99px 120px 120px;
+    top:10.6%;
+    left:23%;
+}
+.wheel1{
+     background-color:#009973;
+    width:2.2rem;
+    height:3.74rem;
+    border-radius:11px;
+    position:absolute;
+    top:25%;
+    left:18%;
+    border:5px solid black;
+}
+.wheelco1{
+    background-color:#00664d;
+    width:1.9rem;
+    height:3.51rem;
+    position:absolute ;
+    top:26.2%;
+    left:20.59%;
+    border-radius:6px 3px 7.5px 3px;
+}
+.wheel2{
+     background-color:#009973;
+    width:2.2rem;
+    height:3.74rem;
+    border-radius:11px;
+    position:absolute;
+    border-style:solid;
+    border-width:5px;
+    border-color:#000000;
+    top:25%;
+    right:18%;
+}
+.wheelcol2{
+    background-color:#00664d;
+    width:1.9rem;
+    height:3.51rem;
+    position:absolute ;
+    top:26.2%;
+    right:19.1%;
+    border-radius:6px 3px 7.5px 3px;
+}
+
+.wheel3{
+    background-color:#009973;
+    width:2.2rem;
+    height:3.9rem;
+    border-radius:11px;
+    position:absolute;
+    bottom:25.5%;
+    right:18%;
+    border:5px solid black;    
+    
+    
+}
+.wheelco3{
+    background-color:#00664d;
+    width:1.9rem;
+    height:3.74rem;
+    position:absolute ;
+    bottom:26.1%;
+    right:19.1%;
+    border-radius:6px 3px 7.5px 3px;
+}
+.wheel4{
+    background-color:#009973;
+    width:2.2rem;
+    height:3.9rem;
+    border-radius:11px;
+    position:absolute;
+    bottom:25.5%;
+    left:18%;
+    border:5px solid black;
+}
+.wheelco4{
+    background-color:#00664d;
+    width:1.9rem;
+    height:3.74rem;
+    position:absolute ;
+    bottom:26.1%;
+    left:20.59%;
+    border-radius:6px 3px 7.5px 3px;
+}
+.rect1{
+    background-color:#ffffff;
+    height:3.3rem;
+    width:2.35rem;
+    position:absolute ;
+    border:5px solid black;
+    top:25.5%;
+}
+.rect2{
+    height:3.3rem;
+    width:2.35rem;
+    background-color:#ffffff;
+    position:absolute ;
+    border:5px solid black;
+    bottom:26.1%;
+}
+.rect3{
+    height:1.35rem;
+    width:10rem;
+    background-color:#ffffff;
+    position:absolute;
+    top:27.5%;
+    border:5px solid black;
+}
+.rect4{
+     height:1.35rem;
+    width:10rem;
+    background-color:#ffffff;
+    position:absolute;
+    bottom:28.2%;
+    border:5px solid black;
+}
+.circ1{
+    background-color:#ffffff;
+    height:0.7rem;
+    width:0.7rem;
+    border:5px solid black;
+    position:absolute ;
+    border-radius:100px;
+    top:28.22%;
+}
+.circ2{
+    background-color:#ffffff;
+    height:0.7rem;
+    width:0.7rem;
+    border:5px solid black;
+    position:absolute ;
+    border-radius:100px;
+    bottom:28.9%;
+}
+.follow{
+    position:absolute ;
+    bottom:5%;
+    left:10%;
+    border-radius:10px;
+}
+
+
+     
+ </style>
+ 
+ 
+ 
+    </body>
+</html>
